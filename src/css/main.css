@@ -1,1 +1,50 @@
 /* Your CSS here. */
+body {
+  background-color: #ffffff;
+  display: flex;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #2a2670;
+  width: 80%;
+  max-width: 900px;
+  height: auto;
+  min-height: 600px;
+  text-align: center;
+}
+
+.profilepic {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+}
+
+h1 {
+  color: #FFD93D;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.email {
+  color: #ffffff;
+  margin: 20px auto;
+  font-style: italic;
+}
+
+.contact{
+  color: #f0d875;
+}
+
+.bio
+{
+  margin: 20px auto;
+  padding: 10px;
+  color: #ffffff;
+  text-align: left;
+}
